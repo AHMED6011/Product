@@ -116,6 +116,73 @@ section.features .d-flex p {
 
 section.prices {
   padding: 50px 0 60px;
+  background-color: #f7f7f7;
+}
+
+section.prices .prices-text h2 {
+  font-size: 30px;
+  color: #555555;
+}
+
+section.prices .plan-card {
+  background-color: #fff;
+  border: 2px solid #ededed;
+  padding: 15px 0;
+  margin-top: 100px;
+  color: #acacac;
+}
+
+section.prices .plan-card span.title {
+  font-size: 18px;
+  color: #a044ff;
+}
+
+section.prices .plan-card h5 {
+  font-size: 48px;
+  margin: 30px auto;
+}
+
+section.prices .plan-card h5 span {
+  font-size: 15px;
+  vertical-align: bottom;
+}
+
+section.prices .plan-card ul {
+  padding: 0;
+}
+
+section.prices .plan-card ul li {
+  font-size: 15px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+section.prices .plan-card a.btn {
+  border: 2px solid #7233a2;
+  background-color: #fff;
+  color: #7233a2;
+  padding: 10px 40px;
+  border-radius: 0;
+  transition: 0.5s all ease;
+}
+
+section.prices .plan-card a.btn:hover {
+  background-color: #7233a2;
+  color: #fff;
+}
+
+section.prices .col-md-6:nth-child(3) .plan-card {
+  padding-top: 60px;
+  margin-top: 55px;
+}
+
+section.prices .col-md-6:nth-child(3) .plan-card a.btn {
+  background-color: #7233a2;
+  color: #fff;
+}
+
+/* section.prices {
+  padding: 50px 0 60px;
   background-color: #f2eff1;
 }
 
@@ -168,7 +235,7 @@ section.prices .col-md-6:nth-child(3) .plan-card {
 section.prices .col-md-6:nth-child(3) .plan-card a.btn {
   background-color: #6a3093;
   color: #fff;
-}
+} */
 
 section.faq .accordion-header button {
   box-shadow: none;
